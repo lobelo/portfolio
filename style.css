@@ -482,6 +482,7 @@ main {
 .graphic-section-title {
   margin: auto;
   text-align: center;
+  width: 35%;
 }
 
 .graphic-section-title h2 {
@@ -660,8 +661,8 @@ footer .width {
     width: 50%;
     margin: 2rem 25%;
     padding: 2rem;
-    background-color: #fff;
-    box-shadow: 1px 1px 4px #000;
+    background-color: #011023;
+    box-shadow: 1px 1px 4px #011023;
     border-radius: 5%;
     opacity: 0.95;
     transition: all 400ms ease-in-out;
@@ -795,6 +796,12 @@ footer .width {
     top: 0%;
     left: 0;
   }
+
+  .graphic-section-title {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
 }
 @media (max-width: 650px) {
   /* Header */
@@ -812,10 +819,16 @@ footer .width {
     width: 90%;
     margin: 2rem 5%;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #011023;
     box-shadow: 1px 1px 4px #000;
     border-radius: 5%;
     opacity: 0.95;
+  }
+
+  .graphic-section-title {
+    margin: auto;
+    text-align: center;
+    width: 100%;
   }
 }
 @media (max-width: 550px) {
@@ -844,6 +857,13 @@ footer .width {
     flex: 0 0 100%; /* Poniendo un 100% se queda cada uno en una linea */
     padding: 0;
   }
+
+  .graphic-section-title {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  
 }
 @media (max-width: 350px) {
   /* Header */
@@ -861,10 +881,16 @@ footer .width {
     width: 100%;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #fff;
+    background-color: #011023;
     box-shadow: 1px 1px 4px #000;
     border-radius: 5%;
     opacity: 0.95;
+  }
+
+  .graphic-section-title {
+    margin: auto;
+    text-align: center;
+    width: 100%;
   }
 }
 /* Ligh mode */
@@ -907,6 +933,7 @@ body.dark {
 
 .dark .navbar-toggler {
   border-color: #fff;
+  color:white;
 }
 
 .dark .navbar-toggler-icon {

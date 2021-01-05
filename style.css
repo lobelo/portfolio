@@ -879,7 +879,7 @@ footer .width {
     width: 90%;
   }
   .logo img {
-    height: 24px;
+    height: 20px;
   }
   .navbar-collapse.list-position.collapse.show {
     width: 100%;
@@ -894,8 +894,15 @@ footer .width {
   .graphic-section-title {
     width: 100%;
   }
-  
+
+  .button-card {
+    margin: auto;
+  }
+
+  .reading-time {
+  margin: auto 3rem; 
 }
+
 /* Dark mode */
 body.dark {
   background-color: #011023;

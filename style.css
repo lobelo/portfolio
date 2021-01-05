@@ -464,7 +464,7 @@ main {
 .phone .card-image {
   width: 77%;
   position: absolute;
-  top: 5px;
+  top: 3px;
   left: -12px;
 }
 
@@ -619,6 +619,11 @@ footer .width {
   .hello-container p {
     font-size: 28px;
   }
+
+  .graphic-section-title {
+    width: 45%;
+  }
+
 }
 @media (max-width: 1200px) {
   .hello-container h1 {
@@ -629,9 +634,12 @@ footer .width {
     font-size: 24px;
     line-height: 32px;
   }
-  /* UX Section */
-  
+
+  .graphic-section-title {
+    width: 50%;
+  }
 }
+  /* UX Section */
 @media (max-width: 1100px) {
   .hello-container h1 {
     font-size: 42px;

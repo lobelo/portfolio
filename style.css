@@ -1,5 +1,5 @@
 
-+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 
 /* Global */
 html {
@@ -578,6 +578,10 @@ footer .width {
   footer .width {
     width: 65%;
   }
+
+  .graphic-section-title {
+    width: 35%;
+  }
 }
 @media (max-width: 1500px) {
   .width {
@@ -592,6 +596,10 @@ footer .width {
 
   .margin-top {
     margin-top: 4rem !important;
+  }
+
+  .graphic-section-title {
+    width: 35%;
   }
 
 }
@@ -646,6 +654,10 @@ footer .width {
   .header-container {
     width: 90%;
   }
+
+  .graphic-section-title {
+    width: 50%;
+  }
 }
 @media (max-width: 991px) {
   .width {
@@ -666,7 +678,7 @@ footer .width {
     margin: 2rem 25%;
     padding: 2rem;
     background-color: #fff;
-    box-shadow: 1px 1px 4px #000;
+    box-shadow: 1px 1px 4px #011023;
     border-radius: 5%;
     opacity: 0.95;
     transition: all 400ms ease-in-out;
@@ -756,6 +768,10 @@ footer .width {
     transform: scale(1.1);
     transition: all 400ms ease-in-out;
   }
+
+  .graphic-section-title {
+    width: 50%;
+  }
   
   /* Footer */
   footer {
@@ -799,6 +815,10 @@ footer .width {
     top: 0%;
     left: 0;
   }
+
+  .graphic-section-title {
+    width: 65%;
+  }
 }
 @media (max-width: 650px) {
   /* Header */
@@ -817,7 +837,7 @@ footer .width {
     margin: 2rem 5%;
     padding: 1rem;
     background-color: #fff;
-    box-shadow: 1px 1px 4px #000;
+    box-shadow: 1px 1px 4px #011023;
     border-radius: 5%;
     opacity: 0.95;
   }
@@ -849,7 +869,7 @@ footer .width {
     padding: 0;
   }
 }
-@media (max-width: 350px) {
+@media (min-width: 320px) and (max-width: 414px) {
   /* Header */
   header form,
   header li {
@@ -859,17 +879,22 @@ footer .width {
     width: 90%;
   }
   .logo img {
-    height: 12px;
+    height: 20px;
   }
   .navbar-collapse.list-position.collapse.show {
     width: 100%;
     margin: 2rem auto;
     padding: 1rem;
     background-color: #fff;
-    box-shadow: 1px 1px 4px #000;
+    box-shadow: 1px 1px 4px #011023;
     border-radius: 5%;
     opacity: 0.95;
   }
+
+  .graphic-section-title {
+    width: 100%;
+  }
+  
 }
 /* Dark mode */
 body.dark {
@@ -912,6 +937,7 @@ body.dark {
 
 .dark .navbar-toggler-icon {
   filter: invert(1) brightness(10);
+  background-color: #011023;
 }
 
 .dark .navbar-collapse.list-position.collapse.show {

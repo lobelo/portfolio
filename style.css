@@ -879,7 +879,7 @@ footer .width {
     width: 90%;
   }
   .logo img {
-    height: 20px;
+    height: 24px;
   }
   .navbar-collapse.list-position.collapse.show {
     width: 100%;
@@ -937,7 +937,6 @@ body.dark {
 
 .dark .navbar-toggler-icon {
   filter: invert(1) brightness(10);
-  background-color: #011023;
 }
 
 .dark .navbar-collapse.list-position.collapse.show {

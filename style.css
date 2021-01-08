@@ -815,12 +815,14 @@ footer .width {
   }
   .card-section{
     padding-bottom: 1rem;
+    border: transparent;
   }
   .card-text p {
     width: 100%;
   }
   .responsive-container-in {
     text-align: center;
+    border: transparent;
   }
   .phone .card-image-back {
     margin: 3rem 0;
@@ -868,14 +870,12 @@ footer .width {
     top: 11%;
     left: 29.5%;
     margin: 1.5rem 0;
-    border:none;
   }
   .laptop .card-image {
     position: relative;
     width: 240%;
     left: 0;
     margin: 1.5rem 0;
-    border:none;
   }
 }
 @media (max-width: 550px) {
@@ -913,6 +913,7 @@ footer .width {
 
   .card {
     width: 90%;
+    border: transparent;
   }
   .card-section {
     padding: 0;
@@ -996,21 +997,6 @@ footer .width {
   .button-border {
     width: 75%;
     /*margin: 2rem;*/
-  }
-  .laptop .card-image-back {
-    width: 181.2%;
-    height: auto;
-    top: 11%;
-    left: 29.5%;
-    margin: 1.5rem 0;
-    border:none;
-  }
-  .laptop .card-image {
-    position: relative;
-    width: 240%;
-    left: 0;
-    margin: 1.5rem 0;
-    border:none;
   }
 }
 /* Dark mode */

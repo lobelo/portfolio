@@ -862,6 +862,21 @@ footer .width {
     border-radius: 5%;
     opacity: 0.95;
   }
+  .laptop .card-image-back {
+    width: 181.2%;
+    height: auto;
+    top: 11%;
+    left: 29.5%;
+    margin: 1.5rem 0;
+    border:none;
+  }
+  .laptop .card-image {
+    position: relative;
+    width: 240%;
+    left: 0;
+    margin: 1.5rem 0;
+    border:none;
+  }
 }
 @media (max-width: 550px) {
   /* Header */
@@ -981,6 +996,21 @@ footer .width {
   .button-border {
     width: 75%;
     /*margin: 2rem;*/
+  }
+  .laptop .card-image-back {
+    width: 181.2%;
+    height: auto;
+    top: 11%;
+    left: 29.5%;
+    margin: 1.5rem 0;
+    border:none;
+  }
+  .laptop .card-image {
+    position: relative;
+    width: 240%;
+    left: 0;
+    margin: 1.5rem 0;
+    border:none;
   }
 }
 /* Dark mode */

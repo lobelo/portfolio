@@ -815,14 +815,12 @@ footer .width {
   }
   .card-section{
     padding-bottom: 1rem;
-    border: transparent;
   }
   .card-text p {
     width: 100%;
   }
   .responsive-container-in {
     text-align: center;
-    border: transparent;
   }
   .phone .card-image-back {
     margin: 3rem 0;
@@ -913,10 +911,11 @@ footer .width {
 
   .card {
     width: 90%;
-    border: transparent;
+    border: none;
   }
   .card-section {
     padding: 0;
+    border: none;
   }
   .button-column {
     width: 100%;

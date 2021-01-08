@@ -889,7 +889,7 @@ footer .width {
     width: 85%;
   }
   .about-title {
-    width: 90%;
+    width: 100%;
   }
   .smaller {
     flex: 0 0 100%; /* Poniendo un 100% se queda cada uno en una linea */

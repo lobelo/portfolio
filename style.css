@@ -882,14 +882,14 @@ footer .width {
     text-align: center;
   }
   .button-card {
-    width: 90%;
+    width: 100%;
   }
   /* Footer */
   footer .width {
     width: 85%;
   }
   .about-title {
-    width: 100%;
+    width: 90%;
   }
   .smaller {
     flex: 0 0 100%; /* Poniendo un 100% se queda cada uno en una linea */

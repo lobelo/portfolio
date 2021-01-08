@@ -892,7 +892,7 @@ footer .width {
   /* UX Section */
 
   .section-title {
-    padding-top: 3rem;
+    padding-top: 5rem;
     margin-bottom: 2rem;
   }
 
@@ -912,24 +912,20 @@ footer .width {
     width: 100%;
   }
 
-  .laptop .responsive-container-out,
-  .phone .responsive-container-out {
-    position: relative;
-    width: 100%;
-    height: auto;
-  }
   .laptop .card-image-back {
     width: 181.2%;
     height: auto;
     top: 11%;
     left: 29.5%;
     margin: 1.5rem 0;
+    border:none;
   }
   .laptop .card-image {
     position: relative;
     width: 240%;
     left: 0;
     margin: 1.5rem 0;
+    border:none;
   }
   /* Footer */
 

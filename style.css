@@ -911,6 +911,26 @@ footer .width {
   .button-card {
     width: 100%;
   }
+
+  .laptop .responsive-container-out,
+  .phone .responsive-container-out {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .laptop .card-image-back {
+    width: 181.2%;
+    height: auto;
+    top: 12%;
+    left: 29.4%;
+    margin: 1.5rem 0;
+  }
+  .laptop .card-image {
+    position: relative;
+    width: 240%;
+    left: 0;
+    margin: 1.5rem 0;
+  }
   /* Footer */
 
   footer {

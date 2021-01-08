@@ -163,7 +163,7 @@ main {
 /* Hello Section */
 
 .margin-top {
-  margin-top: 7rem !important;
+  margin-top: 6rem !important;
 }
 
 .row-1-set {
@@ -595,7 +595,7 @@ footer .width {
   }
 
   .margin-top {
-    margin-top: 4rem !important;
+    margin-top: 3rem !important;
   }
 
   .graphic-section-title {
@@ -859,6 +859,14 @@ footer .width {
   }
   .logo img {
     height: 16px;
+  }
+  /* Main */
+  main {
+    padding-top: 0;
+  }
+  /* Hello */
+  .scroll-down.margin-top {
+    margin-top: 3rem !important;
   }
   /* UX Section */
   .card {

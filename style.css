@@ -10,6 +10,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+button {
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 400ms ease-in-out;
+}
+
 a {
   text-decoration: none;
   font-weight: 400;
@@ -122,6 +128,7 @@ header {
 .nav-list a {
   padding: 1rem 0 1.25rem;
   margin: auto 0.5rem;
+  border-bottom: 1px solid transparent;
 }
 
 .nav-list a:hover {
@@ -194,7 +201,7 @@ main {
   margin-top: 2.5rem;
 }
 
-.button-border a {
+.button-border {
   color: #011023;
   padding: 1rem 1rem;
   border-radius: 0.5rem;
@@ -202,7 +209,7 @@ main {
   background: transparent;
 }
 
-.button-border a:hover {
+.button-border:hover {
   color: white;
   background: #011023;
 }
@@ -781,7 +788,7 @@ footer .width {
   .graphic-section-title {
     width: 50%;
   }
-  
+
   /* Footer */
   footer {
     text-align: center;
@@ -800,8 +807,7 @@ footer .width {
 @media (max-width: 768px) {
   /* UX Section */
   .text-margin {
-    padding: 2rem;
-    padding-bottom: 0;
+    padding: 3rem 2rem 0;
   }
   .card-section{
     padding-bottom: 1rem;
@@ -819,7 +825,8 @@ footer .width {
     left: 14%;
   }
   .phone .card-image {
-    padding: 2rem 0;
+    margin: 2rem 0;
+    padding: 0;
     position: relative;
     top: 0%;
     left: 0;
@@ -868,6 +875,16 @@ footer .width {
   .scroll-down.margin-top {
     margin-top: 3rem !important;
   }
+  .button-div1 {
+    padding: 0 32px;
+  }
+  .button-div2 {
+    width: 65%;
+    margin: auto;
+  }
+  .button-border {
+    width: 100%;
+  }
   /* UX Section */
   .card {
     width: 90%;
@@ -895,6 +912,9 @@ footer .width {
     flex: 0 0 100%; /* Poniendo un 100% se queda cada uno en una linea */
     padding: 0;
   }
+  a.button-global {
+    padding: 1rem 15%;
+  }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   /* Header */
@@ -918,11 +938,18 @@ footer .width {
     border-radius: 5%;
     opacity: 0.95;
   }
-
   .graphic-section-title {
     width: 100%;
   }
- 
+  /* Hello */
+  .button-div2 {
+    width: 100%;
+    margin: auto;
+  }
+  .button-border {
+    width: 75%;
+    margin: 2rem;
+  }
 }
 /* Dark mode */
 body.dark {
@@ -935,7 +962,7 @@ body.dark {
 
 .dark header a {
   color: #fff !important;
-  border-bottom: 1px solid #011023;
+  border-bottom: 1px solid transparent;
 }
 
 .dark header a:hover {
@@ -953,6 +980,14 @@ body.dark {
 
 .dark .form-check-input:checked {
   border-color: #fff;
+}
+
+.dark .form-check-input:hover,
+.dark .form-check-input:checked,
+.dark .form-check-input:focus,
+.dark .form-check-input:enabled {
+    background-color: #011023 !important;
+    filter: none;
 }
 
 .dark .logo {
@@ -978,15 +1013,16 @@ body.dark {
 .dark h3,
 .dark h4,
 .dark p,
-.dark a {
+.dark a,
+.dark button {
   color: #fff;
 }
 
-.dark .button-border a {
+.dark .button-border {
   border-color: #fff;
 }
 
-.dark .button-border a:hover {
+.dark .button-border:hover {
   background-color: #fff;
   color: #011023;
 }

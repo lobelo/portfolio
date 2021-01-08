@@ -28,3 +28,18 @@ $("#flexSwitchCheckDefault").click(function() {
     $("body").removeClass("dark");
   }
 });
+// Collapse Function
+$("main").click(function() {
+  showed = $(".navbar-collapse").hasClass("show");
+  if (showed === true) {
+    $(".navbar-toggler").addClass("collapsed");
+    $(".navbar-collapse").removeClass("show");
+  }
+});
+$(".nav-link").click(function() {
+  showed = $(".navbar-collapse").hasClass("show");
+  if (showed === true) {
+    $(".navbar-toggler").addClass("collapsed");
+    $(".navbar-collapse").removeClass("show");
+  }
+});

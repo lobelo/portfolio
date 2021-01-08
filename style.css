@@ -952,7 +952,7 @@ footer .width {
   }
   .button-border {
     width: 75%;
-    margin: 2rem;
+    /*margin: 2rem;*/
   }
 }
 /* Dark mode */

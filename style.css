@@ -911,11 +911,10 @@ footer .width {
 
   .card {
     width: 90%;
-    border: none;
+    border:transparent;
   }
   .card-section {
     padding: 0;
-    border: none;
   }
   .button-column {
     width: 100%;
@@ -933,14 +932,14 @@ footer .width {
     top: 11%;
     left: 29.5%;
     margin: 1.5rem 0;
-    border:none;
+    border:transparent;
   }
   .laptop .card-image {
     position: relative;
     width: 240%;
     left: 0;
     margin: 1.5rem 0;
-    border:none;
+    border:transparent;
   }
   /* Footer */
 
@@ -962,28 +961,6 @@ footer .width {
     padding: 1rem 15%;
   }
   
-  .card {
-    border: transparent;
-  }
-  
-  .card:hover {
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    -o-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    border: transparent;
-  }
-  
-  .card:hover img {
-    -moz-transform: rotate(0deg) translateY(0px);
-    -webkit-transform: rotate(0deg) translateY(0px);
-    -o-transform: rotate(0deg) translateY(0px);
-    -ms-transform: rotate(0deg) translateY(0px);
-    transform:rotate(0deg) translateY(0px);
-    border: transparent;
-    
-  }
 }
 @media (min-width: 320px) and (max-width: 414px) {
   /* Header */

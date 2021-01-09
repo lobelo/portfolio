@@ -911,7 +911,7 @@ footer .width {
 
   .card {
     width: 90%;
-    border:transparent;
+    border:0 solid transparent;
   }
   .card-section {
     padding: 0;
@@ -932,14 +932,12 @@ footer .width {
     top: 11%;
     left:29.5%;
     margin: 1.5rem 0;
-    border:transparent;
   }
   .laptop .card-image {
     position: relative;
     width: 240%;
     left: 15;
     margin: 1.5rem 0;
-    border:transparent;
   }
   /* Footer */
 

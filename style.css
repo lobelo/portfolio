@@ -937,7 +937,7 @@ footer .width {
   .laptop .card-image {
     position: relative;
     width: 240%;
-    left: 0;
+    left: 15;
     margin: 1.5rem 0;
     border:transparent;
   }

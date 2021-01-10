@@ -911,7 +911,7 @@ footer .width {
 
   .card {
     width: 90%;
-    border: 1px solid red;
+    outline: none;
   }
   .card-section {
     padding: 0;
@@ -996,7 +996,7 @@ footer .width {
   }
   .card {
     width: 90%;
-    border: 1px solid red;
+    outline: none;
   }
 }
 /* Dark mode */

@@ -375,6 +375,18 @@ main {
   color: #ffffff;
 }
 
+.turespuesta .button-border {
+  margin-top: 0;
+}
+
+.turespuesta .button-border {
+  color: #ccc;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  border: rgba(101,101,119,.2);
+  background: rgba(101,101,119,.2);
+}
+
 .turespuesta .button-card,
 .shazam .button-card {
   color: white;

@@ -266,7 +266,7 @@ main {
   width: 90%;
   max-width: 900px;
   font-weight: 700;
-  border: 0 solid transparent;
+  border: 1px solid transparent;
   overflow: hidden;
   transition: all 400ms ease-in-out;
 }

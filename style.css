@@ -266,7 +266,7 @@ main {
   width: 90%;
   max-width: 900px;
   font-weight: 700;
-  border: 0 solid transparent;
+  border: 0 solid transparent !important;
   overflow: hidden;
   transition: all 400ms ease-in-out;
 }
@@ -736,6 +736,7 @@ footer .width {
     height: auto;
     text-align: left;
     width: 80%;
+    border: 0 solid transparent !important;
   }
   .card-section {
     padding: 0;
@@ -912,6 +913,7 @@ footer .width {
   .card {
     width: 90%;
     outline: none;
+    border: 0 solid transparent !important;
   }
   .card-section {
     padding: 0;

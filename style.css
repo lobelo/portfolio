@@ -910,8 +910,8 @@ footer .width {
   }
 
   .card {
-    width: 100%;
-    border: 1 solid transparent;
+    width: 90%;
+    border-color: none;
   }
   .card-section {
     padding: 0;

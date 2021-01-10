@@ -905,7 +905,7 @@ footer .width {
   /* UX Section */
 
   .section-title {
-    padding-top: 5rem;
+    padding-top: 6rem;
     margin-bottom: 2rem;
   }
 
@@ -915,6 +915,7 @@ footer .width {
   }
   .card-section {
     padding: 0;
+    outline: none;
   }
   .button-column {
     width: 100%;
@@ -932,12 +933,14 @@ footer .width {
     top: 11%;
     left:36.5%;
     margin: 1.5rem 0;
+    outline: none;
   }
   .laptop .card-image {
     position: relative;
     width: 240%;
     left: 6.4%;
     margin: 1.5rem 0;
+    outline: none;
   }
   /* Footer */
 

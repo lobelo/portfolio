@@ -911,7 +911,7 @@ footer .width {
 
   .card {
     width: 90%;
-    border-color: none;
+    border-color: 0 solid transparent;
   }
   .card-section {
     padding: 0;
@@ -932,7 +932,6 @@ footer .width {
     top: 11%;
     left:36.5%;
     margin: 1.5rem 0;
-    position: absolute;
   }
   .laptop .card-image {
     position: relative;
@@ -994,6 +993,10 @@ footer .width {
   .button-border {
     width: 75%;
     /*margin: 2rem;*/
+  }
+  .card {
+    width: 90%;
+    border-color: 0 solid transparent;
   }
 }
 /* Dark mode */

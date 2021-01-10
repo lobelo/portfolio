@@ -840,6 +840,9 @@ footer .width {
   .graphic-section-title {
     width: 65%;
   }
+  .card {
+    border: 0 solid transparent !important;
+  }
 }
 @media (max-width: 650px) {
   /* Header */
@@ -875,6 +878,9 @@ footer .width {
     width: 240%;
     left: 0;
     margin: 1.5rem 0;
+  }
+  .card {
+    border: 0 solid transparent !important;
   }
 }
 @media (max-width: 550px) {
@@ -912,12 +918,10 @@ footer .width {
 
   .card {
     width: 90%;
-    outline: none;
     border: 0 solid transparent !important;
   }
   .card-section {
     padding: 0;
-    outline: none;
   }
   .button-column {
     width: 100%;
@@ -935,14 +939,12 @@ footer .width {
     top: 11%;
     left:36.5%;
     margin: 1.5rem 0;
-    outline: none;
   }
   .laptop .card-image {
     position: relative;
     width: 240%;
     left: 6.4%;
     margin: 1.5rem 0;
-    outline: none;
   }
   /* Footer */
 
@@ -1000,8 +1002,7 @@ footer .width {
     /*margin: 2rem;*/
   }
   .card {
-    width: 90%;
-    outline: none;
+    border: 0 solid transparent !important;
   }
 }
 /* Dark mode */

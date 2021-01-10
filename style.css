@@ -266,7 +266,7 @@ main {
   width: 90%;
   max-width: 900px;
   font-weight: 700;
-  border: 1px solid red;
+  border: 0 solid transparent;
   overflow: hidden;
   transition: all 400ms ease-in-out;
 }
@@ -910,8 +910,8 @@ footer .width {
   }
 
   .card {
-    width: 90%;
-    border:0 solid transparent;
+    width: 100%;
+    border: 1 solid transparent;
   }
   .card-section {
     padding: 0;

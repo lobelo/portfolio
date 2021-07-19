@@ -241,7 +241,7 @@ main {
   transform: translateY(10px);
 }
 
-/* Ux Section */
+/* Projects Section */
 
 #ux-section .margin-top {
   margin-top: 2rem !important;
@@ -387,13 +387,13 @@ main {
   background: rgba(101,101,119,.2);
 }
 
-.turespuesta .button-card,
+.turespuesta .button-card,.behance .button-card,.motorbeach .button-card,.pocketcamp .button-card,
 .shazam .button-card {
   color: white;
   border: 1px solid #ffffff;
 }
 
-.turespuesta .button-card:hover,
+.turespuesta .button-card:hover,.behance .button-card:hover,.motorbeach .button-card:hover,
 .shazam .button-card:hover {
   color: white;
   border: 1px solid #011023;
@@ -434,14 +434,18 @@ main {
 }
 
 .motorbeach .card {
-  background-color: #1db954;
-  -webkit-box-shadow: 0px 16px 40px 0px rgba(29,191,115,0.3);
-  box-shadow: 0px 16px 40px 0px rgba(29,191,115,0.3);
+  background-color: #43a047;
+  -webkit-box-shadow: 0px 16px 40px 0px rgba(67,160,71,0.3);
+  box-shadow: 0px 16px 40px 0px rgba(67,160,71,0.3);
 }
 
-.motorbeach p,
+.motorbeach  h3 {
+  color: #ffffff;
+}
+
+.motorbeach p, .pocketcamp p,
 .motorbeach .reading-time {
-  color: #011023;
+  color: #ffffff;
 }
 
 .shazam .card {
@@ -487,33 +491,35 @@ main {
   left: -12px;
 }
 
-/* Graphic */
-
-#graphic {
-  padding: 5rem 2rem;
-  background-color: #eef3f8;
+.behance .card {
+  background-color: #2e384e;
+  -webkit-box-shadow: 0px 16px 40px 0px rgba(46,56,78,0.3);
+  box-shadow: 0px 16px 40px 0px rgba(46,56,78,0.3);
 }
 
-#graphic p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
+.behance h3 {
+  color: #ffffff;
 }
 
-.graphic-design-container {
-  margin: auto;
+.pocketcamp .card {
+  background-color: #00b8d4;
+  -webkit-box-shadow: 0px 16px 40px 0px rgba(0,184,212,0.3);
+  box-shadow: 0px 16px 40px 0px rgba(0,184,212,0.3);
 }
 
-.graphic-section-title {
-  margin: auto;
-  text-align: center;
-  width: 30%;
+.pocketcamp .button-border {
+  color: #ccc;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  border: rgba(101,101,119,.2);
+  background: rgba(101,101,119,.2);
 }
 
-.graphic-section-title h2 {
-  padding-bottom: 16px;
+.pocketcamp h3 {
+  color: #ffffff;
 }
+
+
 
 /* Footer */
 
@@ -1093,37 +1099,20 @@ body.dark {
   color: #011023;
 }
 
+.dark .pocketcamp .button-border:hover {
+  color: #ccc;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  border: rgba(101,101,119,.2);
+  background: rgba(101,101,119,.2);
+}
+
 .dark .fas {
   color: #fff;
 }
 
 .dark .button-card {
   border-color: #fff;
-}
-
-.dark .motorbeach .reading-time {
-  color: #011023;
-}
-
-.dark .motorbeach p {
-  color: #011023;
-}
-
-.dark .motorbeach h3 {
-  color: #011023;
-}
-
-.dark .motorbeach .button-card {
-  border-color: #011023;
-  color: #011023;
-}
-
-.dark .motorbeach .button-card:hover {
-  color: #fff;
-}
-
-.dark #graphic {
-  background-color: #2e384e;
 }
 
 .dark .about-container a:hover {

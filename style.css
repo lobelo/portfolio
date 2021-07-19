@@ -37,7 +37,7 @@ h3 {
   font-size: 32px;
   line-height: 40px;
   font-weight: 500;
-  padding-bottom: 16px;
+  padding-bottom: 0.5rem;
 }
 
 h1,
@@ -47,6 +47,7 @@ h4,
 p {
   color: #011023;
 }
+ 
 
 /* Click to Top */
 #button-top {
@@ -293,6 +294,7 @@ main {
   margin: auto;
 }
 
+
 .card-text p {
   color: white;
   width: 80%;
@@ -439,7 +441,7 @@ main {
   box-shadow: 0px 16px 40px 0px rgba(35,134,54,0.3);
 }
 
-.motorbeach  h3 {
+.motorbeach h3 {
   color: #ffffff;
 }
 
@@ -1021,6 +1023,13 @@ footer .width {
   }
   .card {
     border: 0 solid transparent !important;
+  }
+
+  .behance .laptop .card-image-back {
+    height: 70%;
+    position: relative;
+    top: 16%;
+    left: -14px;
   }
 }
 /* Dark mode */

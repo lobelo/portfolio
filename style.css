@@ -832,7 +832,7 @@ footer .width {
 @media (max-width: 768px) {
   /* UX Section */
   .text-margin {
-    padding: 3rem 0.7rem 0;
+    padding: 3rem 0.78rem 0;
   }
   .card-section{
     padding-bottom: 1rem;
@@ -1027,6 +1027,7 @@ footer .width {
 
   .behance .laptop .card-image-back {
     height: 70%;
+    width: 145%;
     position: relative;
     top: 16%;
     left: -14px;

@@ -434,9 +434,9 @@ main {
 }
 
 .motorbeach .card {
-  background-color: #43a047;
-  -webkit-box-shadow: 0px 16px 40px 0px rgba(67,160,71,0.3);
-  box-shadow: 0px 16px 40px 0px rgba(67,160,71,0.3);
+  background-color: #238636;
+  -webkit-box-shadow: 0px 16px 40px 0px rgba(35,134,54,0.3);
+  box-shadow: 0px 16px 40px 0px rgba(35,134,54,0.3);
 }
 
 .motorbeach  h3 {

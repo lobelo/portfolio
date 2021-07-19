@@ -832,7 +832,7 @@ footer .width {
 @media (max-width: 768px) {
   /* UX Section */
   .text-margin {
-    padding: 3rem 0.4rem 0;
+    padding: 3rem 0.45rem 0;
   }
   .card-section{
     padding-bottom: 1rem;
